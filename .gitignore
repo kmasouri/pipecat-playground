@@ -1,0 +1,40 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environment directories
+venv/
+.env/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore test coverage reports
+.coverage
+htmlcov/
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
+
+# Ignore environment variables
+.env
+.env.*
+
+# Ignore node_modules if applicable
+node_modules/
+
+# Ignore any other sensitive or temporary files
+*.bak
+*.swp
+*.swo
