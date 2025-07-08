@@ -5,6 +5,7 @@ from fastapi.responses import Response
 from twilio.twiml.voice_response import VoiceResponse
 import logging
 
+
 async def call_stream_handler(websocket: WebSocket):
     await websocket.accept()
     print("🔌 Twilio Media Stream connected")
